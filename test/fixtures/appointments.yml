@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  patient_first_name: MyString
+  patient_last_name: MyString
+  visit: 2019-08-01 14:08:27
+  kind: false
+
+two:
+  patient_first_name: MyString
+  patient_last_name: MyString
+  visit: 2019-08-01 14:08:27
+  kind: false
