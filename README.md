@@ -1,24 +1,31 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Sample rails application. Here are the instructions to get started
 
-Things you may want to cover:
+bundle install
 
-* Ruby version
+bundle exec rails db:migrate
 
-* System dependencies
+bundle exec rails db:seed
 
-* Configuration
+bundle exec rails server
 
-* Database creation
+Open URL: http://localhost:3000 in web browser
 
-* Database initialization
+## Supported routes
 
-* How to run the test suite
+POST requests accepts json
 
-* Services (job queues, cache servers, search engines, etc.)
+GET api/v1/doctors
 
-* Deployment instructions
+GET api/v1/doctors/1
 
-* ...
+POST api/v1/doctors
+
+DELETE api/v1/doctors/1
+
+GET api/v1/doctors/1/appointments
+
+POST api/v1/doctors/1/appointments
+
+DELETE api/v1/doctors/1/appointments/1
