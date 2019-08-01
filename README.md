@@ -29,3 +29,13 @@ GET api/v1/doctors/1/appointments
 POST api/v1/doctors/1/appointments
 
 DELETE api/v1/doctors/1/appointments/1
+
+Example JSON for appointment:
+
+{
+	"doctor_id": "1",
+	"patient_first_name": "Bruce",
+	"patient_last_name": "Wayne",
+	"visit": "2019-08-01 14:00:00",
+	"kind": "true"
+}
